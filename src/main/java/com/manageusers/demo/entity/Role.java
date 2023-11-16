@@ -8,7 +8,6 @@ public class Role {
     private Long id;
     private String name;
 
-    // Getters y Setters para 'id'
     public Long getId() {
         return id;
     }
@@ -17,7 +16,6 @@ public class Role {
         this.id = id;
     }
 
-    // Getters y Setters para 'name'
     public String getName() {
         return name;
     }

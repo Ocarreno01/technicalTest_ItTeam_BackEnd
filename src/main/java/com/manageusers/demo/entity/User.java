@@ -15,7 +15,6 @@ public class User {
     @JoinColumn(name = "role_id")
     private Role role;
 
-    // Getters y Setters para 'id'
     public Long getId() {
         return id;
     }
@@ -24,7 +23,6 @@ public class User {
         this.id = id;
     }
 
-    // Getters y Setters para 'firstName'
     public String getFirstName() {
         return firstName;
     }
@@ -33,7 +31,6 @@ public class User {
         this.firstName = firstName;
     }
 
-    // Getters y Setters para 'lastName'
     public String getLastName() {
         return lastName;
     }
@@ -42,7 +39,6 @@ public class User {
         this.lastName = lastName;
     }
 
-    // Getters y Setters para 'age'
     public Integer getAge() {
         return age;
     }
@@ -51,7 +47,6 @@ public class User {
         this.age = age;
     }
 
-    // Getters y Setters para 'photo'
     public String getPhoto() {
         return photo;
     }
@@ -60,7 +55,6 @@ public class User {
         this.photo = photo;
     }
 
-    // Getters y Setters para 'documentType'
     public String getDocumentType() {
         return documentType;
     }
@@ -69,7 +63,6 @@ public class User {
         this.documentType = documentType;
     }
 
-    // Getters y Setters para 'role'
     public Role getRole() {
         return role;
     }
